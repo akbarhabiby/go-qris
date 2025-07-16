@@ -95,5 +95,9 @@ fmt.Printf("Merchant: %s\n", data.MerchantName)
 ## 🧪 Testing
 
 ```bash
+# Run all tests with verbose output
 go test ./... -v
+
+# Run all benchmarks and show memory allocations
+go test -bench=. -benchmem
 ```
